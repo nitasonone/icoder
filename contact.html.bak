@@ -21,7 +21,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="about.html">About</a>
@@ -92,16 +92,19 @@
 	 <div class="form-group row">
     <div class="col-sm-2">Are You a Coder</div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
+        <input class="form-check-input" type="checkbox" id="gridCheck3">
+        <label class="form-check-label" for="gridCheck3">
           Yes
         </label>
       </div>
     </div>
-  
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Elaborate your Concern</label>
+        <div class="form-group">
+    <label for="exampleFormControlTextarea1">Tell us about Yourself</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea2">Elaborate your Concern</label>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
   </div>
     <button class="btn btn-primary">Submit</button>
 </form>
